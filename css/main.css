@@ -2329,7 +2329,44 @@ br:nth-child(3){
          height: 1068px;
          display: flex;
          flex-direction: column;
-
+             .small-boxes{
+                     width: 721px;
+         height: 452px;
+         .boxes-container{
+            width: 687px;
+            height: 382px;
+            .md-font{
+                width: 687px;
+                height: 24px;
+            }
+            .xs{
+             width: 687px;
+                height: 16px;
+            }
+            .small-cont{
+                width: 687px; 
+                height: 322px;
+                .cont{
+                    width: 687px; 
+                     height: 58px;
+                     .conte{
+                        width: 419px;
+                        height: 40px;
+                        label{
+                            width: 59px;
+                            height: 20px;
+                        }
+                        .xs ,.git{
+                             width: 488px;
+                               height: 16px;
+                               line-height: 1.2;
+                               
+                        }
+                     }
+                }
+            }
+         }
+            }
 
             .beg-box{
                  width: 721px;
@@ -2379,44 +2416,7 @@ br:nth-child(3){
           
          }
             }
-            .small-boxes{
-                     width: 721px;
-         height: 452px;
-         .boxes-container{
-            width: 687px;
-            height: 382px;
-            .md-font{
-                width: 687px;
-                height: 24px;
-            }
-            .xs{
-             width: 687px;
-                height: 16px;
-            }
-            .small-cont{
-                width: 687px; 
-                height: 322px;
-                .cont{
-                    width: 687px; 
-                     height: 58px;
-                     .conte{
-                        width: 419px;
-                        height: 40px;
-                        label{
-                            width: 59px;
-                            height: 20px;
-                        }
-                        .xs ,.git{
-                             width: 488px;
-                               height: 16px;
-                               line-height: 1.2;
-                               
-                        }
-                     }
-                }
-            }
-         }
-            }
+           
         }
        
 
